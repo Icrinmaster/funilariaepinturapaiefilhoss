@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#c1121f" />
+  <title>Pai e Filhos Funilaria e Pintura | Uberaba - MG</title>
+  <meta name="description" content="Pai e Filhos Funilaria e Pintura em Uberaba - MG. Funilaria, pintura automotiva, martelinho de ouro, polimento e serviços completos. Orçamento rápido via WhatsApp." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pai e Filhos Funilaria e Pintura | Uberaba - MG" />
+  <meta property="og:description" content="Serviços completos de funilaria e pintura automotiva. Atendimento rápido, qualidade e garantia." />
+  <meta property="og:type" content="website" />
+
+  <!-- Font (sem libs JS externas) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Splash / Intro com zoom da logo -->
+  <div id="splash" class="splash" aria-hidden="true">
+    <div class="splash__inner">
+      <img src="assets/logo.png" alt="Pai e Filhos Funilaria e Pintura" class="splash__logo" />
+      <div class="splash__text">
+        <strong>Pai e Filhos</strong>
+        <span>Funilaria e Pintura</span>
+      </div>
+      <div class="splash__bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar__wrap">
+      <div class="topbar__left">
+        <span class="chip">Uberaba - MG</span>
+        <a class="topbar__link" href="tel:+5534992496801">📞 (34) 99249-6801</a>
+        <a class="topbar__link" href="mailto:funilariaepinturapaiefilhos@gmail.com">✉️ funilariaepinturapaiefilhos@gmail.com</a>
+      </div>
+      <div class="topbar__right">
+        <a class="btn btn--ghost" target="_blank" rel="noopener"
+           href="https://wa.me/5534992496801?text=Olá!%20Quero%20um%20orçamento%20na%20Pai%20e%20Filhos%20Funilaria%20e%20Pintura.">
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="header" id="header">
+    <div class="container header__wrap">
+      <a class="brand" href="#home" aria-label="Voltar ao início">
+        <img src="assets/logo.png" alt="Logo Pai e Filhos" class="brand__logo">
+        <div class="brand__txt">
+          <strong>Pai e Filhos</strong>
+          <span>Funilaria e Pintura</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#contato">Contato</a>
+        <a class="btn btn--primary nav__cta" href="#orcamento">Orçamento Rápido</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navDrawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Drawer mobile -->
+    <div class="drawer" id="navDrawer" aria-hidden="true">
+      <div class="drawer__panel">
+        <div class="drawer__head">
+          <strong>Menu</strong>
+          <button class="drawer__close" id="drawerClose" aria-label="Fechar menu">✕</button>
+        </div>
+        <div class="drawer__links">
+          <a href="#home" data-drawer-link>Início</a>
+          <a href="#sobre" data-drawer-link>Sobre</a>
+          <a href="#servicos" data-drawer-link>Serviços</a>
+          <a href="#galeria" data-drawer-link>Galeria</a>
+          <a href="#depoimentos" data-drawer-link>Depoimentos</a>
+          <a href="#faq" data-drawer-link>Dúvidas</a>
+          <a href="#contato" data-drawer-link>Contato</a>
+          <a class="btn btn--primary" href="#orcamento" data-drawer-link>Orçamento Rápido</a>
+          <a class="btn btn--ghost" target="_blank" rel="noopener"
+             href="https://wa.me/5534992496801?text=Olá!%20Quero%20um%20orçamento%20na%20Pai%20e%20Filhos%20Funilaria%20e%20Pintura.">
+            Falar no WhatsApp
+          </a>
+        </div>
+      </div>
+      <div class="drawer__backdrop" id="drawerBackdrop"></div>
+    </div>
+  </header>
+
+  <!-- Hero (slider) -->
+  <main id="home" class="hero">
+    <div class="hero__bg" data-hero-bg>
+      <div class="hero__slide is-active" style="background-image:url('assets/hero-1.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/hero-2.jpg')"></div>
+      <div class="hero__slide" style="background-image:url('assets/hero-3.jpg')"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__shape"></div>
+    </div>
+
+    <div class="container hero__wrap">
+      <div class="hero__content">
+        <p class="kicker reveal">Confiabilidade • Acabamento Premium • Prazo</p>
+        <h1 class="reveal">
+          Funilaria e Pintura automotiva com <span class="accent">padrão alto</span> em Uberaba
+        </h1>
+        <p class="lead reveal">
+          Reparos de colisão, pintura completa, martelinho de ouro, polimento e estética automotiva.
+          Atendimento ágil e transparente — do orçamento à entrega.
+        </p>
+
+        <div class="hero__actions reveal">
+          <a class="btn btn--primary" href="#orcamento">Solicitar Orçamento</a>
+          <a class="btn btn--ghost" href="#servicos">Ver Serviços</a>
+        </div>
+
+        <div class="hero__stats reveal">
+          <div class="stat">
+            <strong>Desde 2010</strong>
+            <span>Empresa fundada em 18/02/2010</span>
+          </div>
+          <div class="stat">
+            <strong>Qualidade</strong>
+            <span>Processos + acabamento profissional</span>
+          </div>
+          <div class="stat">
+            <strong>Garantia</strong>
+            <span>Serviço com responsabilidade</span>
+          </div>
+        </div>
+
+        <div class="hero__dots" aria-label="Controles do slide" role="tablist">
+          <button class="dot is-active" data-dot="0" aria-label="Slide 1"></button>
+          <button class="dot" data-dot="1" aria-label="Slide 2"></button>
+          <button class="dot" data-dot="2" aria-label="Slide 3"></button>
+        </div>
+      </div>
+
+      <aside class="hero__card reveal" id="orcamento">
+        <div class="card">
+          <div class="card__head">
+            <strong>Orçamento rápido</strong>
+            <span>Resposta ágil pelo WhatsApp</span>
+          </div>
+
+          <form id="budgetForm" class="form" novalidate>
+            <div class="grid2">
+              <label>
+                Nome
+                <input name="nome" type="text" placeholder="Seu nome" required />
+              </label>
+              <label>
+                Telefone
+                <input name="telefone" type="tel" placeholder="(34) 9xxxx-xxxx" required />
+              </label>
+            </div>
+
+            <label>
+              Serviço
+              <select name="servico" required>
+                <option value="" selected disabled>Selecione</option>
+                <option>Funilaria (colisão)</option>
+                <option>Pintura automotiva</option>
+                <option>Retoques e detalhamento</option>
+                <option>Outro</option>
+              </select>
+            </label>
+
+            <label>
+              Descreva o que aconteceu
+              <textarea name="mensagem" rows="4" placeholder="Ex.: batida na porta direita, arranhões, amassados..." required></textarea>
+            </label>
+
+            <button type="submit" class="btn btn--primary btn--full">Enviar no WhatsApp</button>
+
+            <p class="form__fine">
+              Ao enviar, você será direcionado ao WhatsApp com a mensagem pronta.
+            </p>
+          </form>
+        </div>
+      </aside>
+    </div>
+
+    <a class="scrollhint" href="#sobre" aria-label="Role para ver mais">
+      <span></span>
+    </a>
+  </main>
+
+  <!-- Faixa de confiança -->
+  <section class="trust">
+    <div class="container trust__wrap reveal">
+      <div class="trust__item">
+        <strong>Transparência</strong>
+        <span>Orçamento detalhado e alinhado</span>
+      </div>
+      <div class="trust__item">
+        <strong>Estrutura</strong>
+        <span>Equipe e processos organizados</span>
+      </div>
+      <div class="trust__item">
+        <strong>Acabamento</strong>
+        <span>Padrão profissional em cada detalhe</span>
+      </div>
+      <div class="trust__item">
+        <strong>Agilidade</strong>
+        <span>Prazo e atualização do serviço</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Sobre a Pai e Filhos</h2>
+        <p class="reveal">
+          A <strong>Pai e Filhos Funilaria e Pintura</strong> (Razão Social: <strong>Silvio de Jesus</strong>) atua com foco em
+          qualidade, acabamento e confiança.
+        </p>
+      </div>
+
+      <div class="about">
+        <div class="about__media reveal">
+          <div class="about__img" role="img" aria-label="Oficina - Pai e Filhos"></div>
+          <div class="about__badge">
+            <strong>CNPJ</strong>
+            <span>43.168.074/0001-44</span>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <ul class="list">
+            <li><strong>Endereço:</strong> Rua Maria Barbara de Souza, 1243 — Uberaba/MG — 38.055-690</li>
+            <li><strong>Atividade (CNAE):</strong> Serviços de lanternagem/funilaria e pintura de veículos automotores (4520-0/02)</li>
+            <li><strong>Fundação:</strong> 18/02/2010</li>
+            <li><strong>Contato:</strong> (34) 99249-6801 • (34) 3315-4853</li>
+            <li><strong>E-mail:</strong> funilariaepinturapaiefilhos@gmail.com</li>
+          </ul>
+
+          <div class="hours">
+            <h3>Horário de funcionamento</h3>
+            <div class="hours__grid">
+              <div><span>Segunda</span><strong>08:00–18:00</strong></div>
+              <div><span>Terça</span><strong>08:00–18:00</strong></div>
+              <div><span>Quarta</span><strong>08:00–18:00</strong></div>
+              <div><span>Quinta</span><strong>08:00–18:00</strong></div>
+              <div><span>Sexta</span><strong>08:00–18:00</strong></div>
+              <div><span>Sábado</span><strong>08:00–16:00</strong></div>
+              <div><span>Domingo</span><strong>Fechado</strong></div>
+            </div>
+          </div>
+
+          <div class="about__cta">
+            <a class="btn btn--primary" target="_blank" rel="noopener"
+               href="https://wa.me/5534992496801?text=Olá!%20Quero%20um%20orçamento%20na%20Pai%20e%20Filhos.">
+              Pedir orçamento agora
+            </a>
+            <a class="btn btn--ghost" href="#contato">Ver localização</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section section--dark">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Serviços</h2>
+        <p class="reveal">Tudo para recuperar, proteger e valorizar seu veículo — com acabamento profissional.</p>
+      </div>
+
+      <div class="cards">
+        <article class="cardx reveal">
+          <h3>Funilaria (lanternagem)</h3>
+          <p>Reparos de colisão, alinhamento de peças, preparação com padrão de qualidade.</p>
+          <ul>
+            <li>Troca/ajuste de peças</li>
+            <li>Reparo estrutural leve</li>
+            <li>Preparação para pintura</li>
+          </ul>
+        </article>
+
+        <article class="cardx reveal">
+          <h3>Pintura automotiva</h3>
+          <p>Pintura completa ou parcial com controle de tonalidade e acabamento.</p>
+          <ul>
+            <li>Cabine / ambiente controlado*</li>
+            <li>Acerto de cor</li>
+            <li>Verniz e proteção</li>
+          </ul>
+        </article>
+
+        <article class="cardx reveal">
+          <h3>Polimento</h3>
+          <p>Restauração de brilho, remoção de riscos leves e proteção.</p>
+          <ul>
+            <li>Polimento técnico</li>
+            <li>Proteção da pintura</li>
+            <li>Renovação estética</li>
+          </ul>
+        </article>
+
+        <article class="cardx reveal">
+          <h3>Orçamento & acompanhamento</h3>
+          <p>Atendimento rápido com registro do serviço e atualizações.</p>
+          <ul>
+            <li>Orçamento via WhatsApp</li>
+            <li>Agendamento</li>
+            <li>Atendimento humanizado</li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="fine reveal">* Serviços podem variar conforme avaliação do veículo.</p>
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Galeria</h2>
+        <p class="reveal">Alguns trabalhos e detalhes de acabamento. (Substitua pelas fotos reais da oficina.)</p>
+      </div>
+
+      <div class="gallery">
+        <button class="gallery__item reveal" data-img="assets/galeria-1.jpg" aria-label="Abrir foto 1">
+          <img src="assets/galeria-1.jpg" alt="Trabalho de funilaria e pintura 1">
+        </button>
+        <button class="gallery__item reveal" data-img="assets/galeria-2.jpg" aria-label="Abrir foto 2">
+          <img src="assets/galeria-2.jpg" alt="Trabalho de funilaria e pintura 2">
+        </button>
+        <button class="gallery__item reveal" data-img="assets/galeria-3.jpg" aria-label="Abrir foto 3">
+          <img src="assets/galeria-3.jpg" alt="Trabalho de funilaria e pintura 3">
+        </button>
+        <button class="gallery__item reveal" data-img="assets/galeria-4.jpg" aria-label="Abrir foto 4">
+          <img src="assets/galeria-4.jpg" alt="Trabalho de funilaria e pintura 4">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="section section--soft">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Depoimentos</h2>
+        <p class="reveal">Textos demonstrativos — troque pelos depoimentos reais (Google/WhatsApp).</p>
+      </div>
+
+      <div class="testimonials">
+        <article class="tcard reveal">
+          <p>“Atendimento excelente e acabamento impecável. Fiquei impressionado com o cuidado.”</p>
+          <div class="tcard__foot">
+            <strong>Cliente</strong><span>Uberaba/MG</span>
+          </div>
+        </article>
+        <article class="tcard reveal">
+          <p>“Orçamento rápido, serviço entregue no prazo e pintura perfeita. Recomendo muito!”</p>
+          <div class="tcard__foot">
+            <strong>Cliente</strong><span>Uberaba/MG</span>
+          </div>
+        </article>
+        <article class="tcard reveal">
+          <p>“Martelinho de ouro ficou top. Quase não dá pra ver onde estava amassado.”</p>
+          <div class="tcard__foot">
+            <strong>Cliente</strong><span>Uberaba/MG</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="center reveal">
+        <a class="btn btn--primary" target="_blank" rel="noopener"
+           href="https://wa.me/5534992496801?text=Olá!%20Quero%20agendar%20uma%20avaliação%20na%20Pai%20e%20Filhos.">
+          Agendar avaliação
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Dúvidas frequentes</h2>
+        <p class="reveal">Perguntas comuns para passar confiança e reduzir objeções.</p>
+      </div>
+
+      <div class="faq">
+        <details class="faq__item reveal">
+          <summary>Quanto tempo leva um serviço de funilaria e pintura?</summary>
+          <p>Depende do dano e da disponibilidade de peças. Após a avaliação, informamos um prazo realista e mantemos você atualizado.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>Vocês fazem orçamento pelo WhatsApp?</summary>
+          <p>Sim. Você pode enviar fotos e uma descrição do ocorrido. Em alguns casos, a avaliação presencial é recomendada para fechar valores com precisão.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>O martelinho de ouro serve para qualquer amassado?</summary>
+          <p>Ele é ideal para amassados leves/moderados quando a pintura está preservada. Avaliamos caso a caso.</p>
+        </details>
+
+        <details class="faq__item reveal">
+          <summary>Tem garantia?</summary>
+          <p>Trabalhamos com responsabilidade e orientamos sobre cuidados pós-serviço. Detalhes de garantia variam conforme o tipo de serviço.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato / Mapa -->
+  <section id="contato" class="section section--dark">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="reveal">Onde estamos</h2>
+        <p class="reveal">Rua Maria Barbara de Souza, 1243 — Uberaba/MG — 38.055-690</p>
+      </div>
+
+      <div class="contact">
+        <div class="contact__left reveal">
+          <div class="contact__box">
+            <h3>Contato</h3>
+            <p><strong>WhatsApp:</strong> <a href="tel:+5534992496801">(34) 99249-6801</a></p>
+            <p><strong>Telefone fixo:</strong> <a href="tel:+553433154853">(34) 3315-4853</a></p>
+            <p><strong>E-mail:</strong> <a href="mailto:funilariaepinturapaiefilhos@gmail.com">funilariaepinturapaiefilhos@gmail.com</a></p>
+
+            <div class="contact__actions">
+              <a class="btn btn--primary" target="_blank" rel="noopener"
+                 href="https://wa.me/5534992496801?text=Olá!%20Quero%20um%20orçamento%20na%20Pai%20e%20Filhos%20Funilaria%20e%20Pintura.">
+                Falar no WhatsApp
+              </a>
+              <a class="btn btn--ghost" target="_blank" rel="noopener"
+                 href="https://www.google.com/maps/search/?api=1&query=Rua%20Maria%20Barbara%20de%20Souza%2C%201243%2C%20Uberaba%20-%20MG%2C%2038055-690">
+                Abrir no Maps
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__box">
+            <h3>Dados da empresa</h3>
+            <p><strong>Nome fantasia:</strong> Pai e Filhos Funilaria e Pintura</p>
+            <p><strong>Razão social:</strong> Silvio de Jesus</p>
+            <p><strong>CNPJ:</strong> 43.168.074/0001-44</p>
+          </div>
+        </div>
+
+        <div class="contact__right reveal">
+          <div class="map">
+            <iframe
+              title="Mapa - Pai e Filhos Funilaria e Pintura"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Rua%20Maria%20Barbara%20de%20Souza%201243%20Uberaba%20MG%2038055-690&output=embed">
+            </iframe>
+          </div>
+
+          <form class="card form2" id="contactForm" novalidate>
+            <div class="card__head">
+              <strong>Mensagem rápida</strong>
+              <span>Envie e abrimos no WhatsApp</span>
+            </div>
+
+            <label>
+              Seu nome
+              <input name="nome" required placeholder="Nome e sobrenome" />
+            </label>
+
+            <label>
+              Assunto
+              <input name="assunto" required placeholder="Ex.: pintura completa" />
+            </label>
+
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" required placeholder="Escreva sua mensagem"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn--primary btn--full">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container footer__wrap">
+          <div class="footer__col">
+            <div class="brand brand--footer">
+              <img src="assets/logo.png" alt="Logo Pai e Filhos" class="brand__logo">
+              <div class="brand__txt">
+                <strong>Pai e Filhos</strong>
+                <span>Funilaria e Pintura</span>
+              </div>
+            </div>
+            <p class="fine">
+              Atendimento em Uberaba/MG. Qualidade, confiança e acabamento profissional.
+            </p>
+          </div>
+
+          <div class="footer__col">
+            <strong>Links</strong>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+          </div>
+
+          <div class="footer__col">
+            <strong>Contato</strong>
+            <a href="tel:+5534992496801">(34) 99249-6801</a>
+            <a href="tel:+553433154853">(34) 3315-4853</a>
+            <a href="mailto:funilariaepinturapaiefilhos@gmail.com">funilariaepinturapaiefilhos@gmail.com</a>
+            <span class="fine">Rua Maria Barbara de Souza, 1243 — Uberaba/MG</span>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <div class="container footer__bottomWrap">
+            <span>© <span id="year"></span> Pai e Filhos Funilaria e Pintura. Todos os direitos reservados.</span>
+            <a class="fine" href="#home">Voltar ao topo ↑</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <!-- Modal da galeria -->
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-label="Visualização de imagem">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" data-close aria-label="Fechar">✕</button>
+      <img id="modalImg" alt="Imagem ampliada" />
+    </div>
+  </div>
+
+  <!-- Botões flutuantes -->
+  <a class="fab fab--whats" target="_blank" rel="noopener"
+     href="https://wa.me/5534992496801?text=Olá!%20Quero%20um%20orçamento%20na%20Pai%20e%20Filhos."
+     aria-label="Chamar no WhatsApp">
+    WhatsApp
+  </a>
+
+  <button class="fab fab--top" id="toTop" aria-label="Voltar ao topo">↑</button>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- SEO: Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoBodyShop",
+    "name": "Pai e Filhos Funilaria e Pintura",
+    "legalName": "Silvio de Jesus",
+    "taxID": "43.168.074/0001-44",
+    "foundingDate": "2010-02-18",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Maria Barbara de Souza, 1243",
+      "addressLocality": "Uberaba",
+      "addressRegion": "MG",
+      "postalCode": "38055-690",
+      "addressCountry": "BR"
+    },
+    "telephone": ["+55 34 99249-6801", "+55 34 3315-4853"],
+    "email": "funilariaepinturapaiefilhos@gmail.com",
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"08:00","closes":"16:00"}
+    ]
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
